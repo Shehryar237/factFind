@@ -1,0 +1,146 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.page {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: #f9f9f9;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg,#f3f7fa 0%,#bbbaedd6 100%);
+}
+
+.headerBar{
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.urlInput {
+    width: 98%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inputSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.pageContent{
+    margin-bottom: 40px;
+    padding: 0% 20%;
+    padding-top: 3%;
+}
+
+.intro{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkButton {
+    padding: 0.6rem 1.2rem;
+    font-size: 1.3rem;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    max-width: 100px;
+    align-self: flex-end;
+
+    &:hover{
+        background-color: #025cc3;;
+    }
+}
+
+.verdict {
+    background-color: rgba(2, 226, 2, 0.367);
+    border-left: 4px solid #177100;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20%;
+    padding: 20px;
+    padding-left: 20%;
+    border-radius: 0px 16px 16px 0px;
+    animation: slideInLeft 0.5s ease-out forwards;
+    
+}
+
+.unreliableVerdict {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-left: 4px solid #c0392b;
+}
+
+.verdict h2{
+        font-weight: bold;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+.methodologyLink{
+    font-size: 1rem;
+    color: rgb(82, 82, 82);
+    transition: transform 0.2s ease-in-out; 
+    display: inline-block; /*need for transform */
+}
+
+.methodologyLink a{
+    display: inline-block;      
+    color: rgb(82, 82, 82);
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}
+
+.footer {
+    margin-top: auto;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* small, muted “powered by” line */
+.credit {
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.credit a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

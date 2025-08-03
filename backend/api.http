@@ -1,0 +1,22 @@
+### Ping the backend
+GET http://localhost:8000/ping
+
+###
+
+### Predict with example.com
+POST http://localhost:8000/predict
+Content-Type: application/json
+
+{
+  "url": "https://www.breitbart.com/politics/2025/07/23/gabbard-releases-house-intel-report-how-obama-administration-manufactured-russia-collusion-hoax/"
+}
+
+###
+
+### Debug extraction on your URL
+POST http://localhost:8000/debug
+Content-Type: application/json
+
+{
+  "url": "https://mousetrapnews.com/drinking-age-at-disney-world-may-be-lowered-to-18/"
+}
