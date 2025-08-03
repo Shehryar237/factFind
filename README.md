@@ -1,4 +1,7 @@
 Steps to run:
+In backend folder:
+pyhton app.py
+
+In client folder: 
 npm install
-npm start
-In client folder: npm run dev
+npm run dev
