@@ -1,4 +1,11 @@
 fastapi
 uvicorn[standard]
+pydantic
+scikit-learn
 joblib
-scikit‑learn
+newspaper3k
+numpy
+requests
+beautifulsoup4
+lxml
+tqdm
