@@ -35,8 +35,6 @@ Paste a news article URL, and the app analyzes the content and returns a verdict
 * **Preprocessing:** lowercasing, punctuation removal, text cleaning
 * **Vectorization:** TF-IDF
 * **Model:** LinearSVC (SVM)
-* **Split:** 80% training, 20% validation
-* **Accuracy:** ~93%
 
 **Pipeline:**
 
