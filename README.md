@@ -119,6 +119,7 @@ http://localhost:5173
 ## Notes
 
 * Works best with full article pages (not homepages)
-* Dataset is mostly political news
-* May be less accurate for other categories
-* Predictions are not guaranteed, only indicative
+* Dataset is mostly american political news
+* Not accurate for other categories
+* Some website formats not supported
+
