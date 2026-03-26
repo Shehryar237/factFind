@@ -10,7 +10,6 @@ npm run dev
 ![Python](https://img.shields.io/badge/Python-blue?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-green?style=flat-square)
 ![React](https://img.shields.io/badge/React-blue?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 factFind is a web app that checks whether a news article is **reliable or unreliable** using NLP and machine learning.
 
